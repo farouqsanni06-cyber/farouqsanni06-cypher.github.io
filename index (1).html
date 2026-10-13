@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faruquadeen Muhammed Sanni – Géomatique & données spatiales</title>
+<meta name="description" content="Portfolio de Faruquadeen Muhammed Sanni, étudiant en Master Géomatique (SIGAT, Rennes 2). Cartographie, SIG, télédétection. Recherche de stage à partir de mai 2027.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <b>F. M. Sanni</b>
+  <nav aria-label="Navigation principale"><ul>
+    <li><a href="#parcours">Parcours</a></li><li><a href="#competences">Compétences</a></li>
+    <li><a href="#missions">Missions</a></li><li><a href="#carte">Carte</a></li><li><a href="#contact">Contact</a></li>
+  </ul></nav>
+</div></header>
+
+<main>
+<div class="hero">
+  <svg class="topo" id="topo" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+  <div class="wrap">
+    <div>
+      <p class="status"><i></i>Recherche de stage à partir de mai 2027</p>
+      <h1>Faruquadeen Muhammed Sanni</h1>
+      <p class="lead">Étudiant en Master Géomatique (parcours SIGAT) à l'Université de Rennes 2. Je transforme des données spatiales en cartes et en analyses de territoire, de la télédétection à la cartographie interactive.</p>
+      <div class="btns"><a class="btn main" href="#missions">Voir mes missions</a><a class="btn alt" href="#contact">Me contacter</a></div>
+    </div>
+    <div class="photo" aria-label="Photo de profil"><img src="photo.jpg" alt="Portrait de Faruquadeen Muhammed Sanni" onerror="this.remove()">FS</div>
+  </div>
+</div>
+
+<section id="parcours"><div class="wrap">
+  <h2>Parcours</h2>
+  <p class="intro">Des études de géographie en Côte d'Ivoire puis en France, et plusieurs stages de cartographie et de SIG sur deux pays.</p>
+  <ul class="tl">
+    <li><time>Juin – août 2026</time><h3>Photo-interprète et contrôleur de surface</h3><div class="org">ASP · Chantepie, France</div>
+      <ul><li>Analyse et contrôle de surfaces agricoles à partir d'images satellitaires</li><li>Préparation de données géographiques pour validation par les équipes terrain</li></ul></li>
+    <li class="study"><time>2025 – 2027</time><h3>Master Géomatique, parcours SIGAT</h3><div class="org">Université de Rennes 2 · en cours</div></li>
+    <li><time>Mai – juillet 2025</time><h3>Géomaticien cartographe (stage)</h3><div class="org">DDSEN49 · Angers, France</div>
+      <ul><li>Exploitation des données Archipel sur l'offre de formation et les publics scolaires</li><li>Cartographie du maillage des collèges et lycées du département</li></ul></li>
+    <li class="study"><time>2024 – 2025</time><h3>Licence Géographie et aménagement</h3><div class="org">Université d'Angers · France</div></li>
+    <li><time>Déc. 2024 – janv. 2025</time><h3>Cartographe (stage)</h3><div class="org">France Terre d'Asile · Angers, France</div>
+      <ul><li>Carte interactive Umap des emplois, logements, services et transports pour l'intégration des réfugiés</li></ul></li>
+    <li><time>Juillet 2023 – juillet 2024</time><h3>Géomaticien et cartographe (stage)</h3><div class="org">Southern IT Consulting · Abidjan, Côte d'Ivoire</div>
+      <ul><li>Projets CORIF (impôt foncier) et SONAPIE (patrimoine immobilier de l'État)</li><li>Cartes thématiques, bases de données, conversion DWG vers SHP, géoréférencement</li></ul></li>
+    <li><time>Depuis novembre 2022</time><h3>Contributeur OpenStreetMap</h3><div class="org">Abidjan, Côte d'Ivoire</div>
+      <ul><li>Création et fourniture de données géographiques en libre accès</li></ul></li>
+    <li class="study"><time>2019 – 2022</time><h3>Licence Géographie, physique et environnement</h3><div class="org">Université Félix Houphouët-Boigny · Côte d'Ivoire</div></li>
+  </ul>
+</div></section>
+
+<section id="competences" style="background:#E6EEEE"><div class="wrap">
+  <h2>Compétences</h2>
+  <p class="intro">Les outils que j'utilise pour collecter, traiter, analyser et représenter des données spatiales.</p>
+  <div class="skills">
+    <div class="skill"><h3>SIG et télédétection</h3><ul class="chips"><li>ArcGIS</li><li>QGIS</li><li>ENVI</li><li>SNAP</li></ul></div>
+    <div class="skill"><h3>Bases de données</h3><ul class="chips"><li>PostgreSQL</li><li>PostGIS</li><li>SQL</li></ul></div>
+    <div class="skill"><h3>Programmation</h3><ul class="chips"><li>Python</li><li>R</li></ul></div>
+    <div class="skill"><h3>Web et dessin</h3><ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>AutoCAD</li><li>Inkscape</li></ul></div>
+    <div class="skill"><h3>Gestion de projet</h3><ul class="chips"><li>MS Project</li><li>Questionnaires</li><li>Échantillonnage</li></ul></div>
+    <div class="skill"><h3>Formations suivies</h3><ul class="chips"><li>Planification et suivi-évaluation (MS Project)</li><li>OpenStreetMap (Open Mapping, Techdays)</li></ul></div>
+  </div>
+</div></section>
+
+<section id="missions"><div class="wrap">
+  <h2>Missions</h2>
+  <p class="intro">Trois réalisations qui montrent ce que je sais faire en situation réelle.</p>
+  <div class="missions">
+    <article class="mission"><h3>Maillage scolaire du Maine-et-Loire</h3><small>DDSEN49 · 2025</small><p>Cartographie thématique des collèges et lycées du département à partir des données Archipel, pour repérer les évolutions de démographie, de mixité et d'équipements.</p></article>
+    <article class="mission"><h3>Carte d'intégration des réfugiés</h3><small>France Terre d'Asile · 2024–2025</small><p>Carte interactive Umap croisant zones d'emploi, logements, services publics et réseaux de transport pour étudier les dynamiques du territoire d'Angers.</p></article>
+    <article class="mission"><h3>Données foncières en Côte d'Ivoire</h3><small>Southern IT Consulting · 2023–2024</small><p>Création de bases de données, conversion de plans d'assemblage urbains de DWG vers SHP, numérisation et géoréférencement pour le CORIF et la SONAPIE.</p></article>
+  </div>
+  <div class="todo"><b>À compléter :</b> ajoute ici tes projets de Master et tes cartes. Copie une carte <code>&lt;article class="mission"&gt;</code>, mets l'image dans un dossier <code>images/</code> et insère-la avec <code>&lt;img src="images/ma-carte.png" alt="…"&gt;</code>.</div>
+</div></section>
+
+<section id="carte" style="background:#E6EEEE"><div class="wrap">
+  <h2>Mon parcours en carte</h2>
+  <p class="intro">Là où j'ai étudié et travaillé. Filtre par type et clique sur un point.</p>
+  <div class="filters" role="group" aria-label="Filtrer les lieux">
+    <button aria-pressed="true" data-f="all">Tous</button><button aria-pressed="false" data-f="etude">Études</button><button aria-pressed="false" data-f="exp">Expériences</button>
+  </div>
+  <div id="map" role="region" aria-label="Carte interactive du parcours"></div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <h2>Travaillons ensemble</h2>
+  <p class="intro">Je cherche un stage en géomatique et données spatiales à partir de mai 2027. Écris-moi pour en discuter.</p>
+  <a class="big" href="mailto:farouqsanni06@gmail.com">farouqsanni06@gmail.com</a>
+  <div class="links"><span>Rennes, France</span><a href="#" id="lk">LinkedIn</a><a href="cv.pdf">Télécharger mon CV</a></div>
+</div></section>
+</main>
+<footer>© Faruquadeen Muhammed Sanni</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
